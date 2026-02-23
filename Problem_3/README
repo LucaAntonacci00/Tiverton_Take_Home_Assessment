@@ -41,11 +41,31 @@ Key Findings:
 Income approach valuations are systematically lower than sales comparison valuations across all states in the dataset.
 Largest divergence observed in Oregon (~ -5.9%)
 California shows consistent ~ -4.5% difference across the largest sample size
-
+___________________________________________________________________________________
 Design Approach
 All transformations performed in SQL
 Data validation and logic checks included
 Edge cases explicitly tested before computing metrics
 
-Notes on Data Limitations
+Note on Data Limitations
 Limited multi-date reconciliation observations prevent time-series CAGR analysis
+___________________________________________________________________________________
+Tooling and Development Process
+
+SQL Environment:
+All analysis was executed using DuckDB via DBeaver as the SQL client
+DBeaver was used to:
+- Explore schema and inspect table structures
+- Validate intermediate result sets
+- Iteratively test logic
+- Debug/revise filtering logic
+
+Use of LLM Assistance
+Large Language Models were used selectively to 
+- Accelerate query drafting
+- Refine SQL structure and formatting
+- Validate mathmatical expressions (e.g., CAGR, percentage difference)
+- Troubleshoot SQL specific issues
+
+All analytical decisions, filtering logic, and data interpretation were independently validated within the SQL environment. 
+LLM assistance was used as a development accelerator, and all reasoning or validation was done by me.
