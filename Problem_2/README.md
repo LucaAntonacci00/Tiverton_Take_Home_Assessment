@@ -55,3 +55,15 @@ Conclusion
 
 The 2023 portfolio shows meaningful concentration risk in the Upper Midwest, particularly across corn-producing regions. Minnesota stands out for both high claim frequency and elevated indemnity concentration. Cotton demonstrates the highest relative loss performance but represents lower overall policy volume.
 Future underwriting strategy should consider geographic diversification and closer risk assessment in high-claim Midwestern regions.
+
+Tooling & Development Process
+- Python (pandas, numpy) in Jupyter Notebook was used for data profiling and cleaning (type normalization, categorical standardization, loss ratio recalculation, and validation checks).
+- Produced a cleaned CSV output for downstream analysis and repeatability.
+- SQLite + DBeaver were used to import the cleaned dataset and execute SQL queries for the required business questions.
+- Results were copied into sql/analysis.sql with queries labeled by question for reviewer readability.
+
+LLM Assistance
+- Used an LLM (ChatGPT) as a helper for iterating on cleaning logic and SQL query structure, primarily to:
+    - draft/validate query patterns (GROUP BY, claim rate calculations, NULL handling)
+    - generate quick “check” queries to surface data quality issues (e.g., inconsistent casing, placeholder values like nan)
+All generated suggestions were reviewed, adjusted, and validated against the dataset by running profiling checks and verifying outputs in Python/DBeaver.
