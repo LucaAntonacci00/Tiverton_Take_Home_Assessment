@@ -14,6 +14,10 @@ Data Preparation
 
 Final dataset: 582 policies
 
+Data Quality/Cleaning Notes:
+- A small number of rows contained missing crop names that were interpreted as the string “Nan” during cleaning. These were excluded from aggregate crop-level analysis to avoid distortion.
+- Found inconsistent casing in categorical fields (e.g., STATE_ABBR), which produced duplicate groups in SQL results (e.g., TX vs tx). For analysis, normalized these fields in-query using UPPER() to ensure correct aggregation.
+
 Findings
 1. Liability Concentration (Q1)
 The states with the highest total insured liability in 2023 were:
