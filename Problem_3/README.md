@@ -6,6 +6,7 @@ This project analyzes agricultural land appraisal data to evaluate acreage consi
 All analytical logic, validation steps, and commentary are built directly into the accompanying SQL file. Queries are structured with inline comments to document assumptions, filtering decisions, and data limitations encountered during analysis.
 
 Structure
+
 The SQL file contains the following sections:
 
 1. Acreage Validation
@@ -28,6 +29,7 @@ As a result, reconciliation $/acre CAGR cannot be computed for any property in t
 3. Valuation Method Consistency (Sales vs Income)
 
 Objective:
+
 Evaluate whether income-based valuations systematically differ from sales comparison valuations.
 Method:
 Restricted to Land rows
