@@ -54,7 +54,7 @@ Problem Completion Note:
 I completed up to Part 4a within Problem 3 in the alloted time
 Please see the uploaded PDF for my ERD and Design Rationale.
 ___________________________________________________________________________________
-Tooling and Development Process
+Tooling and Development Process:
 
 SQL Environment:
 All analysis was executed using DuckDB via DBeaver as the SQL client
@@ -64,7 +64,7 @@ DBeaver was used to:
 - Iteratively test logic
 - Debug/revise filtering logic
 
-Use of LLM Assistance
+Use of LLM Assistance:
 Large Language Models were used selectively to 
 - Accelerate query drafting
 - Refine SQL structure and formatting
