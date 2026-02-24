@@ -6,11 +6,11 @@ Key findings indicate that underwriting risk is heavily concentrated in the Uppe
 
 Data Preparation
 - Initial cleaning included:
-- Removing rows with invalid key monetary values
-- Recomputing loss ratios
-- Standardizing categorical fields (e.g., state abbreviations, crop names)
-- Consolidating crop synonyms (e.g., “Maize” → “Corn”)
-- Excluding placeholder values such as “Nan” in crop and county fields
+    - Removing rows with invalid key monetary values
+    - Recomputing loss ratios
+    - Standardizing categorical fields (e.g., state abbreviations, crop names)
+    - Consolidating crop synonyms (e.g., “Maize” → “Corn”)
+    - Excluding placeholder values such as “Nan” in crop and county fields
 
 Final dataset: 582 policies
 
