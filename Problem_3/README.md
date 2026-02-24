@@ -49,6 +49,10 @@ Edge cases explicitly tested before computing metrics
 
 Note on Data Limitations
 Limited multi-date reconciliation observations prevent time-series CAGR analysis
+
+Problem Completion Note
+I completed up to Part 4a within Problem 3 in the alloted time
+Please see the uploaded PDF for my ERD and Design Rationale.
 ___________________________________________________________________________________
 Tooling and Development Process
 
