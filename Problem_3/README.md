@@ -42,15 +42,15 @@ Income approach valuations are systematically lower than sales comparison valuat
 Largest divergence observed in Oregon (~ -5.9%)
 California shows consistent ~ -4.5% difference across the largest sample size
 ___________________________________________________________________________________
-Design Approach
+Design Approach:
 All transformations performed in SQL
 Data validation and logic checks included
 Edge cases explicitly tested before computing metrics
 
-Note on Data Limitations
+Note on Data Limitations:
 Limited multi-date reconciliation observations prevent time-series CAGR analysis
 
-Problem Completion Note
+Problem Completion Note:
 I completed up to Part 4a within Problem 3 in the alloted time
 Please see the uploaded PDF for my ERD and Design Rationale.
 ___________________________________________________________________________________
